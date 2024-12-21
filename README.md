@@ -80,7 +80,7 @@ Before starting, ensure you have the following installed:
 ## Error Handling
 The API uses consistent error handling with proper HTTP status codes:
 
-- **400 Bad Request**: Invalid input or missing required fields.
+- ** **`400`** Bad Request**: Invalid input or missing required fields.
 - **401 Unauthorized**: Missing or invalid authentication token.
 - **403 Forbidden**: User does not have permission to access the resource.
 - **404 Not Found**: Resource not found.
