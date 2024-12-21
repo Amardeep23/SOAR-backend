@@ -81,13 +81,13 @@ Before starting, ensure you have the following installed:
 The API uses consistent error handling with proper HTTP status codes:
 
 - **`400`** **Bad Request**: Invalid input or missing required fields.
-- **`401`** ** Unauthorized**: Missing or invalid authentication token.
-- **`403`** ** Forbidden**: User does not have permission to access the resource.
-- **`404`** ** Not Found**: Resource not found.
-- **`409`** ** Conflict**: Conflict in the request (e.g., duplicate resource or invalid state).
-- **`429`** ** Too Many Requests**: Rate limiting or excessive requests from the client.
-- **`500`** ** Internal Server Error**: An unexpected error occurred on the server.
-- **`503`** ** Service Unavailable**: The server is temporarily unavailable (e.g., under maintenance).
+- **`401`** **Unauthorized**: Missing or invalid authentication token.
+- **`403`** **Forbidden**: User does not have permission to access the resource.
+- **`404`** **Not Found**: Resource not found.
+- **`409`** **Conflict**: Conflict in the request (e.g., duplicate resource or invalid state).
+- **`429`** **Too Many Requests**: Rate limiting or excessive requests from the client.
+- **`500`** **Internal Server Error**: An unexpected error occurred on the server.
+- **`503`** **Service Unavailable**: The server is temporarily unavailable (e.g., under maintenance).
 
 
 ## Deployment
