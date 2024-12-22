@@ -34,6 +34,9 @@ Before starting, ensure you have the following installed:
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 - [MongoDB](https://www.mongodb.com/)
 
+## Database Schema
+![image](https://github.com/user-attachments/assets/3ea9c0f2-f512-459f-95ba-9cfe3626642f)
+
 ## Installation
 
 1. Clone the repository:
