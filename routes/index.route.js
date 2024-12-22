@@ -6,7 +6,7 @@ const classroomRoutes = require('./classroom.route')
 const studentRoutes = require('./student.route')
 
 router.get('/health', (req, res) => {
-    res.status(200).send('Welcome to the School Management API! 📚');
+    res.status(200).send('🔐 Welcome to the School Management API! 📚');
 });
 
 router.use('/user', userRoutes);
